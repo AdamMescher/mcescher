@@ -1,14 +1,24 @@
 {
+    "parser": "babel-eslint",
     "extends": [
         "airbnb",
-        "prettier"
+        "prettier",
+        "eslint:recommended",
+        "plugin:react/recommended"
     ],
     "plugins": [
-        "prettier"
+        "prettier",
+        "react"
     ],
     "rules": {
         "prettier/prettier": [
             "error"
+        ],
+        "react/display-name": [
+            0
+        ],
+        "react/react-in-jsx-scope": [
+            0
         ]
     }
 }
