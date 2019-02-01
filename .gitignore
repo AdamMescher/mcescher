@@ -1,1 +1,5 @@
 node_modules/
+*.hot-update.js
+*.hot-update.js.map
+*.hot-update.json
+.next/static/webpack/0117b6dacecfe4c18bb3.hot-update.json

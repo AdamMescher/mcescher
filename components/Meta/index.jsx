@@ -7,3 +7,5 @@ const Meta = () => (
         <title>mescher</title>
     </Head>
 )
+
+export default Meta;

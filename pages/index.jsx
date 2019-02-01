@@ -1,9 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+import Page from '../components/Page/index';
 
-const StyledTitle = styled.h1`
-  color: red;
-  font-size: 50px;
-`;
+const Home = () => (
+  <Page>
+    <h1>Hello!</h1>
+  </Page>
+)
 
-export default () => <StyledTitle>My page</StyledTitle>;
+export default Home;
